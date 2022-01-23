@@ -32,4 +32,4 @@ A regex is a sequence of symbols and characters expressing a string or pattern t
   this regex is has greedy matches. since it includes the **+** quantifier, it matches as many time as possible and gives back. 
 ## Author
 
-Author is Bryan Kelller. Github: 
+Author is Bryan Kelller. Github: https://github.com/kcbryan10
