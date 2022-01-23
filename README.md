@@ -1,10 +1,10 @@
-# Regex matching and Email (/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/)
+# Regex matching and Email 
 
-This regex 
+in this tutorial i will explain to you the functionality of the regular expression /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/. which can be used to validate emails.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+A regex is a sequence of symbols and characters expressing a string or pattern to be searched for within a longer piece of text.
 
 ## Table of Contents
 
