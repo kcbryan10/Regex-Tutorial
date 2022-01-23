@@ -22,13 +22,14 @@ A regex is a sequence of symbols and characters expressing a string or pattern t
 ### Quantifiers
  There are two quantifiers within this regex. the first is **+**, this is used to connect email name, email service, and **.com**. the second quantifier in this regex is **{2,6}**, which allows 2-6 characters from the character set of **[a-z\.]**.
 ### Character Classes
-  The character class in this regex is **\d**, which will match a character that is a digit from 0-9. it will only match a single digit ("6" not "66")
+ The character class in this regex is **\d**, which will match a character that is a digit from 0-9. it will only match a single digit ("6" not "66")
 ### Grouping and Capturing
-  There are three capturing groups in this regex. first is ([a-z0-9_\.-]+), this matches the email name. The seconds capturing group is ([\da-z\.-]+), this matches the email service. the third and last capturing group is ([a-z\.]{2,6}), which matches .com.
+ There are three capturing groups in this regex. first is **([a-z0-9_\.-]+)**, this matches the email name. The seconds capturing group is **([\da-z\.-]+)**, this matches the    email service. the third and last capturing group is **([a-z\.]{2,6})**, which matches **.com**.
 ### Bracket Expressions
-  
+  backeted expression in this regex include the character set **[a-z0-9_\.-]**, which matches any letter a-z and is case sensitive. it will also match character 0-9 and "-"
+ "_"".". it also has **[\da-z\.-]**, which matches and letter a-z, any character 0-9, aswell as "." and "-". lastly character set [a-z\.] will match any character a-z and ".".  
 ### Greedy and Lazy Match
-
+  this regex is has greedy matches. since it includes the **+** quantifier, it matches as many time as possible and gives back. 
 ## Author
 
 Author is Bryan Kelller. Github: 
