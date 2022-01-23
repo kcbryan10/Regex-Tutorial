@@ -18,11 +18,11 @@ A regex is a sequence of symbols and characters expressing a string or pattern t
 ## Components of Regex
 
 ### Anchors
- The anchors in this regex are ^, which starts the string. and $, which ends the string.
+ The anchors in this regex are **^**, which starts the string. and **$**, which ends the string.
 ### Quantifiers
- There are two quantifiers within this regex. the first is +, this is used to connect email name, email service, and .com. the second quantifier in this regex is {2,6}, which allows 2-6 characters from the character set of [a-z\.].
+ There are two quantifiers within this regex. the first is **+**, this is used to connect email name, email service, and **.com**. the second quantifier in this regex is **{2,6}**, which allows 2-6 characters from the character set of **[a-z\.]**.
 ### Character Classes
-  The character class in this regex is \d, which will match a character that is a digit from 0-9. it will only match a single digit ("6" not "66")
+  The character class in this regex is **\d**, which will match a character that is a digit from 0-9. it will only match a single digit ("6" not "66")
 ### Grouping and Capturing
   There are three capturing groups in this regex. first is ([a-z0-9_\.-]+), this matches the email name. The seconds capturing group is ([\da-z\.-]+), this matches the email service. the third and last capturing group is ([a-z\.]{2,6}), which matches .com.
 ### Bracket Expressions
