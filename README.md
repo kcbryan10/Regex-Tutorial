@@ -1,4 +1,4 @@
-# Regex matching and Email 
+# Regex matching an Email 
 
 in this tutorial i will explain to you the functionality of the regular expression /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/. which can be used to validate emails.
 
@@ -10,40 +10,25 @@ A regex is a sequence of symbols and characters expressing a string or pattern t
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
-## Regex Components
+## Components of Regex
 
 ### Anchors
-
+ The anchors in this regex are ^, which starts the string. and $, which ends the string.
 ### Quantifiers
-
-### OR Operator
-
+ There are two quantifiers within this regex. the first is +, this is used to connect email name, email service, and .com. the second quantifier in this regex is {2,6}, which allows 2-6 characters from the character set of [a-z\.].
 ### Character Classes
-
-### Flags
-
+  The character class in this regex is \d, which will match a character that is a digit from 0-9. it will only match a single digit ("6" not "66")
 ### Grouping and Capturing
-
+  There are three capturing groups in this regex. first is ([a-z0-9_\.-]+), this matches the email name. The seconds capturing group is ([\da-z\.-]+), this matches the email service. the third and last capturing group is ([a-z\.]{2,6}), which matches .com.
 ### Bracket Expressions
-
+  
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Author is Bryan Kelller. Github: 
