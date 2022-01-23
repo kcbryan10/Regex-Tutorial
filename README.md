@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex matching and Email (/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/)
 
-Introductory paragraph (replace this with your text)
+This regex 
 
 ## Summary
 
